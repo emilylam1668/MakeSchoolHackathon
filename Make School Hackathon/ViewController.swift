@@ -8,11 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        tableView.delegate = self
+        tableView.dataSource = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +22,26 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "CustomCell") as! UsernameCell
+        switch indexPath.row {
+        case 0:
+            cell.logoImageView.image = #imageLiteral(resourceName: "snap-ghost-yellow")
+            cell.companyTitle.text = "Snapchat"
+            //set to something later
+        default:
+            cell.logoImageView.image = #imageLiteral(resourceName: "snap-ghost-yellow")
+            cell.companyTitle.text = "Snapchat"
+        }
+        return cell
+    }
+    
+    
+    @IBOutlet weak var tableView: UITableView!
+    
 }
 
