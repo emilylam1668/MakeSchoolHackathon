@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D766FA8720FD55F300A5530A /* QRCode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D766FA8620FD55F300A5530A /* QRCode.storyboard */; };
 		D7E9B4AE20FD1DA100F16E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E9B4AD20FD1DA100F16E31 /* AppDelegate.swift */; };
 		D7E9B4B020FD1DA100F16E31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E9B4AF20FD1DA100F16E31 /* ViewController.swift */; };
 		D7E9B4B320FD1DA100F16E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E9B4B120FD1DA100F16E31 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D766FA8620FD55F300A5530A /* QRCode.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = QRCode.storyboard; sourceTree = "<group>"; };
 		D7E9B4AA20FD1DA100F16E31 /* Make School Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Make School Hackathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E9B4AD20FD1DA100F16E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7E9B4AF20FD1DA100F16E31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				D7E9B4B920FD1DA200F16E31 /* LaunchScreen.storyboard */,
 				D7E9B4BC20FD1DA200F16E31 /* Info.plist */,
 				D7E9B4B420FD1DA100F16E31 /* Make_School_Hackathon.xcdatamodeld */,
+				D766FA8620FD55F300A5530A /* QRCode.storyboard */,
 			);
 			path = "Make School Hackathon";
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			files = (
 				D7E9B4BB20FD1DA200F16E31 /* LaunchScreen.storyboard in Resources */,
 				D7E9B4B820FD1DA200F16E31 /* Assets.xcassets in Resources */,
+				D766FA8720FD55F300A5530A /* QRCode.storyboard in Resources */,
 				D7E9B4B320FD1DA100F16E31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
