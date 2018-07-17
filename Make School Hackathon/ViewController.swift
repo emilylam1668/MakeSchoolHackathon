@@ -33,6 +33,23 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cell.logoImageView.image = #imageLiteral(resourceName: "snap-ghost-yellow")
             cell.companyTitle.text = "Snapchat"
             //set to something later
+            
+        case 1:
+            cell.logoImageView.image = #imageLiteral(resourceName: "InstagramLogo")
+            cell.companyTitle.text = "Instagram"
+            
+        case 2:
+            cell.logoImageView.image = #imageLiteral(resourceName: "facebookLogo")
+            cell.companyTitle.text = "Facebook"
+            
+        case 3:
+            cell.logoImageView.image = #imageLiteral(resourceName: "twitterLogo")
+            cell.companyTitle.text = "Twitter"
+            
+        case 4:
+            //cell.logoImageView.image =
+            cell.companyTitle.text = "LinkedIn"
+            
         default:
             cell.logoImageView.image = #imageLiteral(resourceName: "snap-ghost-yellow")
             cell.companyTitle.text = "Snapchat"
